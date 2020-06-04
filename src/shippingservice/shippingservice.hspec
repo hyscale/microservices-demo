@@ -1,0 +1,16 @@
+name: shippingservice
+
+image:
+     registry: registry.hub.docker.com  
+     name: {{username}}/shippingservice # replace with your dockerhub username for {{username}}
+     tag: 1.0
+     dockerfile: {}
+
+props:
+    PORT: "50051"
+
+ports:
+   - port: 50051
+
+cpu: 100m-200m
+memory: 64Mi-128Mi

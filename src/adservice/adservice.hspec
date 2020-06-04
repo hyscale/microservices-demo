@@ -1,0 +1,16 @@
+name: adservice
+
+image:
+     registry: registry.hub.docker.com  
+     name: {{username}}/adservice # replace with your dockerhub username for {{username}}
+     tag: 1.0
+     dockerfile: {}
+
+ports:
+   - port: 9555
+   
+props:
+   PORT: "9555"
+
+cpu: 200m-300m
+memory: 180Mi-300Mi

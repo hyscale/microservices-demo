@@ -1,0 +1,17 @@
+name: emailservice
+
+image:
+     registry: registry.hub.docker.com  
+     name: {{username}}/emailservice # replace with your dockerhub username for {{username}}
+     tag: 1.0
+     dockerfile: {}
+
+props: 
+    PORT: "8080"
+    DISABLE_PROFILER: "1"
+    
+ports:
+   - port: 8080
+
+cpu: 100m-200m
+memory: 64Mi-128Mi

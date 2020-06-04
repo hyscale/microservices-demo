@@ -1,0 +1,16 @@
+name: currencyservice
+
+image:
+     registry: registry.hub.docker.com  
+     name: {{username}}/currencyservice # replace with your dockerhub username for {{username}}
+     tag: 1.0
+     dockerfile: {}
+
+props: 
+    PORT: "7000"
+    
+ports:
+   - port: 7000
+
+cpu: 100m-200m
+memory: 64Mi-128Mi

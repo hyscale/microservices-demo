@@ -1,0 +1,14 @@
+name: loadgenerator
+
+image:
+     registry: registry.hub.docker.com  
+     name: {{username}}/loadgenerator # replace with your dockerhub username for {{username}}
+     tag: 1.0
+     dockerfile: {}
+
+props:
+    FRONTEND_ADDR: "frontend:8080"
+    USERS: "10"
+    
+cpu: 300m-500m
+memory: 256Mi-512Mi

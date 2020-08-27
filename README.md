@@ -75,8 +75,6 @@ Find **Protocol Buffers Descriptions** at the [`./pb` directory](./pb).
 
 ## Installation
 
-### Deploying Using Hyscale
-
 > 💡 Recommended if you're planning to develop the application or giving it a
 > try on your local cluster.
 
@@ -93,8 +91,8 @@ image:
     image: dockerhub-username/myservice
     tag: 1.0
 ```
-   
-      ```shell
+   ### Deploying Using Hyscale
+      ```
      hyscale deploy service -f ./src/adservice/adservice.hspec -n <namespace> -a <application-name>
       ```
       

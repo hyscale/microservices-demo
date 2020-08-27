@@ -92,15 +92,15 @@ image:
     tag: 1.0
 ```
    ### Deploying Using Hyscale
-      ```
      hyscale deploy service -f ./src/adservice/adservice.hspec -n <namespace> -a <application-name>
-      ```
+      
       
 ### Cleanup
 
 Delete using hyscale `hyscale undeploy service -s <service-name> -a <application-name> -n <namespace>` to clean up the deployed
 resources.
 
+For all possible commands, see [App-Centric Ops & Commands](https://github.com/hyscale/hyscale/blob/master/docs/hyscale-commands-reference.md)
 
 
 This is not an official Google project.

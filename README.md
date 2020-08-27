@@ -24,9 +24,9 @@ Looking for the old Hipster Shop frontend interface? Use the [manifests](https:/
 
 ## Table of Contents
 - [Screenshots](#Screenshots)
-- [Service Architecture](#Service Architecture)
-- [Features](Features)
-- [Installation](Installation)
+- [ServiceArchitecture](#Service-Architecture)
+- [Features](#Features)
+- [Installation](#Installation)
 
 ## Screenshots
 
